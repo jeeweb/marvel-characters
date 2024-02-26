@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #393939;
+}
+
+.logo {
+  height: 50px;
+  text-align: center;
+}
+
+.logo svg {
+  height: 100%;
+}
