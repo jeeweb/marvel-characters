@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/marve-characters/static/css/main.5493500e.css",
-    "main.js": "/marve-characters/static/js/main.5e05ecf6.js",
-    "index.html": "/marve-characters/index.html",
-    "main.5493500e.css.map": "/marve-characters/static/css/main.5493500e.css.map",
-    "main.5e05ecf6.js.map": "/marve-characters/static/js/main.5e05ecf6.js.map"
+    "main.css": "/marvel-characters/static/css/main.5493500e.css",
+    "main.js": "/marvel-characters/static/js/main.5e05ecf6.js",
+    "index.html": "/marvel-characters/index.html",
+    "main.5493500e.css.map": "/marvel-characters/static/css/main.5493500e.css.map",
+    "main.5e05ecf6.js.map": "/marvel-characters/static/js/main.5e05ecf6.js.map"
   },
   "entrypoints": [
     "static/css/main.5493500e.css",
