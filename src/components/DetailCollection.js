@@ -1,6 +1,6 @@
 import styles from "./DetailCollection.module.css";
 
-function DetailCollection({ subject, api }) {
+function DetailCollection({ subject, api, id }) {
   return (
     <>
       {api.length > 0 ? (
@@ -9,9 +9,11 @@ function DetailCollection({ subject, api }) {
             <span>{subject.toUpperCase()}</span>
           </h3>
           <ul className={styles.detail_collection_list}>
-            {api.map((item) => {
+            {api.map((item, index) => {
               return (
-                <li className={styles.detail_collection_item}>{item.name}</li>
+                <li key={index} className={styles.detail_collection_item}>
+                  {item.name}
+                </li>
               );
             })}
           </ul>
